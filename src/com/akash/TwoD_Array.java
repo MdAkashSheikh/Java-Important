@@ -17,7 +17,7 @@ public class TwoD_Array {
         DemoClass obj = new DemoClass2();
 
         obj.show();
-     
+
 
     }
 }
