@@ -6,6 +6,7 @@ public class CollectionDemo {
     public static void main(String[] args) {
         Collection<Integer> values = new ArrayList<>();
         Set<Integer> numbers = new HashSet<>();
+        Map<Integer, String > mp = new HashMap<>();
 
         values.add(5);
         values.add(8);
@@ -16,6 +17,8 @@ public class CollectionDemo {
         numbers.add(4);
         numbers.add(5);
         numbers.add(5);
+        numbers.add(1);
+
 
         System.out.println(values);
         System.out.println(numbers);
